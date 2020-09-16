@@ -1,0 +1,19 @@
+#Enabling a mute option of Camera app by changing regional customization codes called "cust" for Huawei phone
+#Default values on P20 lite Japanese KDDI version
+#opta 719, optb 392
+#Other variants of values
+#opta 900=General cust, 635=Japan
+#optb 999=General cust
+
+#Set Cust to general
+ro.config.hw_opta=900
+ro.config.hw_optb=999
+ro.hwcamera.sound.muteable=true
+
+#These are some tweaks referenced from the link below#
+#https://github.com/AndroPlus-org/magisk-module-hw01k/blob/master/common/system.prop
+
+ro.config.hide_mirror_share=false
+ro.config.hw_multiscreen=true
+ro.config.hw_hideNetworkSpeed=false
+ro.camera.sound.forced=0
