@@ -1,1 +1,3 @@
-# magisk_p20_lite_camera_mute_patch
+# Huawei P20 lite Magisk Patch for Hidden Camera Sound Menu
+This enables a mute option for Camera app on P20 Lite Japanese version, and also includes some useful features, enabling MirrorShare option (Miracast) and others.<br>
+You can look at the file /system.prop for more information on tweaks.
